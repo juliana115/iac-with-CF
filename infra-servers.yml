@@ -49,7 +49,7 @@ Resources:
           apt-get install apache2 -y
           systemctl start apache2.service
           cd /var/www/html
-          aws s3 cp s3://udacity-demo-1/udacity.zip .
+          aws s3 cp s3://my-demo-1/mydemo.zip .
           unzip -o udacity.zip
       IamInstanceProfile: !Ref RootInstanceProfile
       ImageId: ami-0d1cd67c26f5fca19
