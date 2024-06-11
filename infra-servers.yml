@@ -142,7 +142,7 @@ Resources:
     Properties:
       Path: /
       Roles:
-        - !Ref UdacityS3ReadOnlyEC2
+        - !Ref  my-demoS3ReadOnlyEC2
           
 Outputs:
   LoadBalancerDNSName:
