@@ -1,7 +1,7 @@
 [
 	{
 		"ParameterKey": "EnvironmentName",
-		"ParameterValue": "UdagramApp"
+		"ParameterValue": "JulianaApp"
 	},
 	{
 		"ParameterKey": "VpcCIDR",
