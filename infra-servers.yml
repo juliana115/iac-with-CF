@@ -142,7 +142,7 @@ Resources:
     Properties:
       Path: /
       Roles:
-        - !Ref  my-demoS3ReadOnlyEC2
+        - !Ref  mydemoS3ReadOnlyEC2
           
 Outputs:
   LoadBalancerDNSName:
